@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <style>
+        * {
+            font-family: 'PT Serif', serif;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        .bold {
+            font-weight: 600;
+            font-style: italic;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container" id="docs">
+        <h2>THIS FORM IS A GUIDE. IT DOES NOT REPLACE THE FORMS IN THE WILLS AND PROBATE ACT</h2>
+        <p class="mt-3" style="font-weight: 600; font-size: 23px; font-style: italic;"><span class="me-5">Form 4</span>
+            Guide Affidavit of beneficiary - Letters of administration with Will Annexed</p>
+
+        <div class="text-end" style="font-style: italic; font-weight: 540; font-size: 18px;">
+            <p>{{data.name}}</p>
+            <p>{{data.barNumber}}</p>
+            <p>{{data.address}}</p>
+            <p>{{data.phoneNumber}}</p>
+            <p>{{data.faxNumber}}</p>
+            <p>{{data.emailAddress}}</p>
+        </div>
+
+        <h2 class="mb-5">REPUBLIC OF TRINIDAD AND TOBAGO</h2>
+
+        <h2 class="text-center" style="font-weight: 600;">IN THE ESTATE OF <br>
+            NAME OF DECEASED<br>
+            {{data.heading1}} <br> {{data.heading2}}</h2>
+        <p class="text-center" style="font-size: 25px;">late of</p>
+        <h3 class="text-center" style="font-weight: 600;">{{data.address}}</h3>
+        <h3 class="text-center">Deceased</h3>
+        <h3 class="text-center">*************</h3>
+
+        <p>I <span class="bold">{{data.name2}} , {{data.occupation}} and marital {{data.status}} of sibling of
+                deceased</span> of <span class="bold">{{data.address2}}</span> in the Island of Trinidad, make oath and
+            say as follows:</p>
+
+        <p>
+            1. That I desire to obtain Letters of Administration in the estate of <span
+                class="bold">{{data.descr1}}</span> (hereinafter called "the Deceased"),
+            who died at <span class="bold">{{data.descr1}}</span> on the <span class="bold">{{data.descr2}}</span>
+            having a fixed place of abode at
+            <span class="bold">{{data.descr3}}</span> . The Deceased is the same person as <span
+                class="bold">{{data.descr4}}</span> named in the Death Certificate hereto annexed and
+            marked <span class="bold">{{data.descr5}}</span> . I am over the age of 18 years.
+        </p>
+        <p>2.The deceased at the time of his death was a <span class="bold">{{data.descr6}}</span></p>
+
+        <p>3.I am applying in my capacity as <span>{{data.descr7}}</span> of the deceased.
+        </p>
+
+        <h2>THIS FORM IS A GUIDE. IT DOES NOT REPLACE THE FORMS IN THE WILLS AND
+            PROBATE ACT</h2>
+
+
+        <p>4.The deceased at the time of his death was a <span class="bold">{{data.descr8}}</span>
+            OR
+            The deceased at the time of his death was a divorcee. An office copy of the decree absolute is hereto
+            annexed and marked <span class="bold">{{data.descr9}}</span>
+            OR
+            The deceased at the time of his death was a widower. The deceased and <span
+                class="bold">{{data.descr10}}</span> were married on the <span class="bold">{{data.descr11}}</span> at
+            <span class="bold">{{descr12}}</span> and they are the same persons referred to as <span
+                class="bold">{{descr13}}</span> and <span class="bold">{{data.descr14}}</span>. The marriage certificate
+            is hereto annexed and marked <span class="bold">{{data.descr15}}</span>. The spouse of the deceased died on
+            the <span class="bold">{{data.descr16}}</span> without applying to administer the estate of the deceased.
+            The death certificate of the spouse of the deceased is hereto annexed and marked <span
+                class="bold">{{data.descr17}}</span>.
+            OR
+            The deceased was married at the time of his death. The deceased and <span
+                class="bold">{{data.descr18}}</span> were married on the <span class="bold">{{data.descr19}}</span> at
+            <span class="bold">{{data.descr20}}</span> and they are the same persons referred to as <span
+                class="bold">{{date.descr21}}</span> and <span class="bol">{{data.descr22}}</span>. The marriage
+            certificate is hereto annexed and marked <span class="bold">{{data.descr23}}</span>. The spouse <span
+                class="bold">{{data.descr24}}</span> of the deceased has renounced his rights to administer the estate
+            of the deceased. The renunciation of the spouse dated the <span class="bold">{{data.descr25}}</span> is
+            hereto annexed and marked <span class="bold">{{data.descr26}}</span>.
+        </p>
+
+
+        <p>5. The deceased at the time of his death did not have any children. OR
+            The child(ren) of the deceased has renounced his rights to administer the estate of the deceased11. The
+            renunciation of the child(ren) dated the <span class="bold">{{data.descr27}}</span> is hereto annexed and
+            marked <span class="bold">{{data.descr28}}</span>.
+            AND/OR
+            The deceased had <span class="bold">{{data.descr29}}</span>. The child(ren) of the deceased died on the
+            <span class="bold">{{data.descr30}}</span> without applying to administer the estate of the deceased. The
+            death certificate of the child(ren) of the deceased is hereto annexed and marked <span
+                class="bold">{{data.descr31}}</span>.
+        </p>
+
+        <p>6.The deceased was born to his parents <span class="bold">{{data.descr32}}</span> on the <span
+                class="bold">{{data.descr33}}</span> at the <span class="bold">{{data.descr34}}</span> and is the same
+            person referred to as <span class="bold">{{data.descr35}}</span>. The </p> 
+
+            <h2>THIS FORM IS A GUIDE. IT DOES NOT REPLACE THE FORMS IN THE WILLS AND
+                PROBATE ACT.</h2>
+
+            <p>
+                deceased's birth certificate is hereto
+            annexed and marked <span class="bold">{{data.descr36}}</span>.
+
+            (If the deceased's name is not on the birth certificate a statutory declaration of an independent living
+            person (who is older than or close in age to the deceased) is to be filed with the birth certificate of the
+            deceased annexed to it).
+
+            (If the applicant and deceased are related through their father and the name of the father of the deceased
+            does not appear on the birth certificate of the deceased or applicant or both, then an order of the Court
+            (Paternity Order) is needed to establish a relationship of father and child. The particulars of the Court
+            order are to be stated and an <span class="bold">{{data.descr37}}</span> of the Court order to be annexed).
+
+            (Where the deceased is adopted, the adoption order is to be annexed).
+            </p>
+        
+
+
+        <p>
+            7.I was born to my parents <span class="bold">{{data.descr38}}</span> on the <span class="bold">{{data.descr39}}</span> at the <span class="bold">{{data.descr40}}</span> and I am the same person referred to as <span class="bold">{{data.descr41}}</span>. My birth certificate is hereto annexed and marked <span class="bold">{{data.descr42}}</span>.
+        </p>
+
+
+        <p>8.The parents of the deceased were married on the <span class="bold">{{data.descr43}}</span> at <span class="bold">{{data.descr44}}</span>. They are the
+            same persons as <span class="bold">{{data.descr45}}</span>. The marriage certificate of the
+            parents of the deceased is hereto annexed and marked <span class="bold">{{data.descr46}}</span> <span class="bold">{{data.descr47}}</span>
+        </p>
+
+
+        <p>9.The parent(s) <span class="bold">{{data.descr48}}</span> has renounced his rights to administer the estate of the deceased. The
+            renunciation of the parent(s) of the deceased dated the <span class="bold">{{data.descr49}}</span> is hereto annexed and marked
+            <span class="bold">{{data.descr50}}</span>.
+            AND/OR
+            The parent(s) of the deceased died on the <span class="bold">{{data.descr51}}</span> without
+            applying to administer the estate of the deceased. The death certificate of the parent(s) of the deceased is
+            hereto annexed and marked <span class="bold">{{data.descr52}}</span>.
+        </p>
+
+        <p>
+            10. The deceased did not have any other siblings. OR
+            The deceased had <span class="bold">{{data.descr53}}</span>. The other siblings of the deceased are <span class="bold">{{data.descr54}}</span>. The sibling(s)
+            of the deceased died on the <span class="bold">{{data.descr55}}</span>. The death certificate of the
+            sibling(s) of the deceased is hereto annexed and marked <span class="bold">{{data.descr56}}</span>.
+            AND/OR
+
+        </p>
+
+
+        <h2>THIS FORM IS A GUIDE. IT DOES NOT REPLACE THE FORMS IN THE WILLS AND
+            PROBATE ACT.</h2>
+
+
+            <p>The other sibling(s) has consented to me making this <span class="bold">{{data.descr57}}</span>. The consent of the other sibling(s) is hereto annexed and marked <span class="bold">{{data.descr58}}</span> if applicable.
+                AND/OR
+                The other sibling(s) of the deceased reside outside the jurisdiction at <span class="bold">{{data.descr59}}</span> and have been notified of this application.
+                </p>
+
+        <p>11. Shortly after the death of the deceased I made (or caused to be made) diligent search among the papers and effects of the deceased and also in the depository for Wills of living persons in the Registry of the Supreme Court for a Will or other document of a testamentary character of the deceased and found none and verily believe that the deceased died intestate.</p>
+
+
+
+        <p>12.	From searches made in the said Registry it appears that no application for probate or administration has been made previous to this application. <span class="bold">{{data.descr60}}</span>.</p>
+
+
+
+        <p>13.	The reason for the delay in filing the application is due to <span class="bold">{{data.descr61}}</span></p>
+
+
+        <p>14.	I will duly get in and administer the estate of the said Deceased and pay the Deceased’s just debts and distribute the rest of his estate according to law.</p>
+
+
+
+        <p>15.	I will file in the Registry within 12 calendar months from the date of the grant a statement and account verified by my affidavit of my administration of the estate of the Deceased.</p>
+
+
+        <p>16.	The statements in the application annexed hereto are true to the best of my knowledge, information and belief.</p>
+
+
+        <p>
+            17.	The Inventory hereto annexed and marked <span class="bold">{{data.descr62}}</span>. is a true inventory of the particulars of the estate of the Deceased and the value of all the real and personal estate and effects of the Deceased for and in respect of which a grant is required and is exclusive of what the Deceased may have been possessed of and entitled to as trustee for any other person or persons and not beneficially, and is also exclusive of the property in the said inventory specified as being incapable of immediate valuation. The gross value as at the date of death thereof altogether is <span class="bold">{{data.descr63}}</span> as set out in the Inventory to the best of my knowledge, information and belief.
+        </p>
+
+        <h2>THIS FORM IS A GUIDE. IT DOES NOT REPLACE THE FORMS IN THE WILLS AND
+            PROBATE ACT.</h2>
+
+
+
+            <p>
+                18.	The letters of administration is required in the names of the deceased as <span class="bold">{{data.descr64}}</span> and in the name of the applicant as <span class="bold">{{data.descr65}}</span>.
+            </p>
+
+
+
+
+
+        
+
+        <pre>
+            SWORN to at Place sworn      )
+                                            ) Executor's signature
+                                            )
+        This day of _____________20___.     )
+                                            </pre>
+
+        <p class="text-center">Before me,</p>
+
+        <p class="text-center bold">{{data.descr66}}</p>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

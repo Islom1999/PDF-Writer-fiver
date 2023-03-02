@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <style>
+        * {
+            font-family: 'PT Serif', serif;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        .bold {
+            font-weight: 600;
+            font-style: italic;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container" id="docs">
+        <h2>THIS FORM IS A GUIDE. IT DOES NOT REPLACE THE FORMS IN THE WILLS AND PROBATE ACT</h2>
+        <p class="mt-3"
+            style="font-weight: 600; font-size: 23px; font-style: italic;"><span class="me-5">Form 11</span>       Guide Affidavit of Applicant - Resealing (Commonwealth Countries)</p>
+
+        <div class="text-end" style="font-style: italic; font-weight: 540; font-size: 18px;">
+            <p>{{data.name}}</p>
+            <p>{{data.barNumber}}</p>
+            <p>{{data.address}}</p>
+            <p>{{data.phoneNumber}}</p>
+            <p>{{data.faxNumber}}</p>
+            <p>{{data.emailAddress}}</p>
+        </div>
+
+        <h2 class="mb-5">REPUBLIC OF TRINIDAD AND TOBAGO</h2>
+
+        <h2 class="text-center" style="font-weight: 600;">IN THE ESTATE OF <br>
+            NAME OF DECEASED<br>
+            {{data.heading1}} <br> {{data.heading2}}</h2>
+            <p class="text-center" style="font-size: 25px;">late of</p>
+            <h3 class="text-center" style="font-weight: 600;">{{data.address}}</h3>
+            <h3 class="text-center">Deceased</h3>
+            <h3 class="text-center">*************</h3>
+
+            <p>I <span class="bold">{{data.name2}}, {{data.occupation}} and marital {{data.status}} of </span> of <span class="bold">{{data.address2}}</span> in the Island of Trinidad, make oath and say as follows:</p>
+
+            <p>
+                1.The facts contained herein are true and correct and are within my own knowledge.
+            </p>
+            
+           <p>
+            2.	That a <span class="bold">{{data.descr1}}</span> in the estate of <span class="bold">{{data.descr2}}</span> (hereinafter called "the Deceased"), who died at <span class="bold">{{data.descr3}}</span> on the <span class="bold">{{data.descr4}}</span> was granted to <span class="bold">{{data.descr5}}</span> by the <span class="bold">{{data.descr6}}</span> on the <span class="bold">{{data.descr7}}</span>. A certified copy6 of the grant together with a certified copy of the will <span class="bold">{{data.descr8}}</span> is hereto annexed and marked <span class="bold">{{data.descr9}}</span>. I am over the age of 18 years.
+
+           </p>
+
+            <p>
+                3.That the deceased was at the time of his death was domiciled in <span class="bold">{{data.descr10}}</span>.
+            </p>  
+
+            <p>
+                4.	The deceased at the time of his death was <span class="bold">{{data.descr11}}</span>
+            </p>
+
+            <h2>
+                THIS FORM IS A GUIDE. IT DOES NOT REPLACE THE FORMS IN THE WILLS AND PROBATE ACT
+            </h2>
+
+            <p>
+                5.	I am applying for a Resealing of <span class="bold">{{data.descr12}}</span>, in my capacity as <span class="bold">{{data.descr13}}</span> of the <span class="bold">{{data.descr14}}</span> of the Deceased
+            </p>
+
+            <p>6.	By virtue of a Power of Attorney dated <span class="bold">{{data.descr15}}</span> registered as <span class="bold">{{data.descr16}}</span> the executor/legal personal representative <span class="bold">{{data.descr17}}</span> appointed me his lawful attorney to apply for a Resealing of <span class="bold">{{data.descr18}}</span> in the estate of the deceased. A certified copy of the Power of Attorney is hereto exhibited and marked <span class="bold">{{data.descr19}}</span> <span class="bold">{{data.descr20}}</span></p>
+
+
+
+            <p>7.	On the <span class="bold">{{data.descr21}}</span> I caused two advertisements to be placed in the newspapers stating my intention to make an application for a Resealing of the Grant issued in <span class="bold">{{data.descr22}}</span>. The pages10 from the newspapers are hereto annexed in a bundle and marked <span class="bold">{{data.descr23}}</span>.</p>
+
+            <p>8.The Inventory hereto annexed and marked <span class="bold">{{data.descr24}}</span> is a true inventory of the particulars of the estate of the Deceased and the value of all the real and personal estate and effects of the Deceased for and in respect of which a grant is required and is exclusive of what the Deceased may have been possessed of and entitled to as trustee for any other person or persons and not beneficially, and is also exclusive of the property in the said inventory specified as being incapable of immediate valuation. The gross value as at the date of death thereof altogether is <span class="bold">{{data.descr25}}</span> as set out in the Inventory to the best of my knowledge, information and belief.</p>
+
+            <p>9.	The Grant is required in the names of the deceased as <span class="bold">{{data.descr26}}</span> and in the name of the applicant as <span class="bold">{{data.descr27}}</span>.</p>
+
+            
+
+            <pre>
+         SWORN to at Place sworn            )
+                                            ) Applicant’s signature
+                                            )
+        This day of _____________20___.     )
+                                            </pre>
+
+            <p class="text-center">Before me,</p>
+
+            <p class="text-center bold">Commissioner of Affidavits13</p>
+
+
+
+
+
+
+            <h2>
+                THIS FORM IS A GUIDE. IT DOES NOT REPLACE THE FORMS IN THE WILLS AND PROBATE ACT
+            </h2>
+
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

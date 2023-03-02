@@ -1,0 +1,333 @@
+<div class="container">
+    <div class="col-12 my-5 py-5">
+        <form action="/docs/document2" method="POST">
+            <div class="mb-3">
+                <h2 class="text-center">Form to PDF</h2>
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Name</label>
+                <input 
+                    type="text" 
+                    class="form-control" 
+                    name="name" 
+                    
+                >
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Bar Number</label>
+                <input 
+                    type="text" 
+                    class="form-control" 
+                    name="barNumber" 
+                    
+                >
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Address</label>
+                <input 
+                    type="text" 
+                    class="form-control" 
+                    name="address" 
+                    
+                >
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Phone Number</label>
+                <input 
+                    type="text" 
+                    class="form-control" 
+                    name="phoneNumber" 
+                    
+                >
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Fax Number</label>
+                <input 
+                    type="text" 
+                    class="form-control" 
+                    name="faxNumber" 
+                    
+                >
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Email Address</label>
+                <input 
+                    type="text" 
+                    class="form-control" 
+                    name="emailAddress" 
+                    
+                >
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">INCLUDE ALL NAMES BY WHICH THE DECEASED WAS KNOWN</label>
+                <input 
+                    type="text" 
+                    class="form-control" 
+                    name="heading1" 
+                    
+                >
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">DECEASED</label>
+                <input 
+                    type="text" 
+                    class="form-control" 
+                    name="heading2" 
+                >
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Occupation</label>
+                <input 
+                    type="text" 
+                    class="form-control" 
+                    name="occupation" 
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip"
+                    data-bs-title='This is only required for male applicants.".' 
+                    data-trigger="focus"
+                >
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">status</label>
+                <input 
+                    type="text" 
+                    class="form-control" 
+                    name="status" 
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip"
+                    data-bs-title='This is only required for female applicants.' 
+                    data-trigger="focus"
+                >
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">address of attorney of executor</label>
+                <textarea class="form-control" id="" rows="3" 
+                    name="descr1"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip"
+                    data-bs-title='To be adjusted accordingly to reflect the capacity of the applicant. An executor may be a sole executor, alternate
+executor, surviving executor or one of the named executors.".' 
+                    data-trigger="focus"
+                ></textarea>
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Name of deceased as on the will and all other names by which the deceased was known 3</label>
+                <textarea class="form-control" id="" rows="3" 
+                    name="descr2"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip"
+                    data-bs-title="Where there are typographical errors (e.g. Basdaye/Basdai/Basday/Basdaie) in the deceased's name appearing on
+documents or otherwise, all typographical errors must be stated (and searched) and each must be properly explained
+by the applicant i.e. an explanation is required to account for the differences.
+Where there are different names for the deceased and no nexus between the names (e.g. Basdeo Persad also called
+Andre Jones) an affidavit of alias by an independent person (who is either older than or close in age to the deceased)
+is to be filed." 
+                    data-trigger="focus"
+                ></textarea>
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Place of death as appears on the death
+certificate</label>
+                <textarea class="form-control" id="" rows="3" 
+                    name="descr3"
+                ></textarea>
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Date of death as appears on the death certificate</label>
+                <textarea class="form-control" id="" rows="3" 
+                    name="descr4"
+                ></textarea>
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Omicile of deceased</label>
+                <textarea class="form-control" id="" rows="3" 
+                    name="descr5"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip"
+                    data-bs-title='If the deceased was not domiciled in Trinidad and Tobago, an affidavit of law is required to be filed. Further, the
+words "domicile" and "fixed place of abode" are synonymous, therefore a person cannot be domiciled in Trinidad and
+Tobago with a fixed place of abode in another country.'
+                    data-trigger="focus"
+                ></textarea>
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Last address of deceased</label>
+                <textarea class="form-control" id="" rows="3" 
+                    name="descr6"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip"
+                    data-bs-title='If the deceased person was most recently living in an institution, the address of the institution can be used as the
+last place of abode but you must indicate what was his last residential address e.g. "John Smith late of Vitas House
+239 St. James Street formerly of 1234 Abercromby Lane POS".'
+                    data-trigger="focus"
+                ></textarea>
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Name of deceased as appears on the death certificate</label>
+                <textarea class="form-control" id="" rows="3" 
+                    name="descr7"
+                ></textarea>
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Initials of attorney of executor</label>
+                <textarea class="form-control" id="" rows="3" 
+                    name="descr8"
+                ></textarea>
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Date of Power of Attorney</label>
+                <textarea class="form-control" id="" rows="3" 
+                    name="descr9"
+                ></textarea>
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Registered number of Power of Attorney</label>
+                <textarea class="form-control" id="" rows="3" 
+                    name="descr10"
+                ></textarea>
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Name of executor</label>
+                <textarea class="form-control" id="" rows="3" 
+                    name="descr11"
+                ></textarea>
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Initials of attorney of executor 2</label>
+                <textarea class="form-control" id="" rows="3" 
+                    name="descr12"
+                ></textarea>
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Name of attesting witness</label>
+                <textarea class="form-control" id="" rows="3" 
+                    name="descr13"
+                ></textarea>
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Exhibit number or letter</label>
+                <textarea class="form-control" id="" rows="3" 
+                    name="descr14"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip"
+                    data-bs-title='Exhibit number or letter shall correspond with the exhibit number or letter as stated in the attesting witness
+affidavit.'
+                    data-trigger="focus"
+                ></textarea>
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">And codicil if applicable</label>
+                <textarea class="form-control" id="" rows="3" 
+                    name="descr15"
+                ></textarea>
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Name of Deceased</label>
+                <textarea class="form-control" id="" rows="3" 
+                    name="descr16"
+                ></textarea>
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">State date of will and codicil if applicable</label>
+                <textarea class="form-control" id="" rows="3" 
+                    name="descr17"
+                ></textarea>
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">If a previous application was made details of previous application and information as to withdrawal or if granted date of revocation of grant to be stated</label>
+                <textarea class="form-control" id="" rows="3" 
+                    name="descr18"
+                ></textarea>
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Status</label>
+                <textarea class="form-control" id="" rows="3" 
+                    name="descr19"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip"
+                    data-bs-title='This is required if the deceased was female.'
+                    data-trigger="focus"
+                ></textarea>
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Occupation</label>
+                <textarea class="form-control" id="" rows="3" 
+                    name="descr20"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip"
+                    data-bs-title='This is required if the deceased was male.'
+                    data-trigger="focus"
+                ></textarea>
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Initials of attorney of executor 3</label>
+                <textarea class="form-control" id="" rows="3" 
+                    name="descr21"
+                ></textarea>
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Same value as on the inventory</label>
+                <textarea class="form-control" id="" rows="3" 
+                    name="descr22"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip"
+                    data-bs-title='Value of the estate is to be at the date of death of deceased person.'
+                    data-trigger="focus"
+                ></textarea>
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">State names of deceased</label>
+                <textarea class="form-control" id="" rows="3" 
+                    name="descr23"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip"
+                    data-bs-title='Only state the names in which you would like the grant to be issued, this may or may not include all the names in
+which the search was done.'
+                    data-trigger="focus"
+                ></textarea>
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">State names of the attorney of the executor</label>
+                <textarea class="form-control" id="" rows="3" 
+                    name="descr24"
+                ></textarea>
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Place sworn</label>
+                <textarea class="form-control" id="" rows="3" 
+                    name="descr25"
+                ></textarea>
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Commissioner of Affidavit</label>
+                <textarea class="form-control" id="" rows="3" 
+                    name="descr26"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip"
+                    data-bs-title='Please note the Commissioner of Affidavits is to sign, date and stamp all exhibits according to the exhibit numbers
+as set out in the affidavit. The Commissioner of Affidavits is also to initial all insertions and corrections made to
+every document filed.'
+                    data-trigger="focus"
+                ></textarea>
+            </div>
+
+            
+
+            
+
+        
+            
+            
+            
+
+
+            
+
+            
+            
+            
+
+            <button class="btn btn-primary">Get PDF</button>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,661 @@
+<div class="container">
+    <div class="col-12 my-5 py-5">
+        <form action="/docs/document9" method="POST">
+            <div class="mb-3">
+                <h2 class="text-center">Form to PDF</h2>
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Name</label>
+                <input type="text" class="form-control" name="name">
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Bar Number</label>
+                <input type="text" class="form-control" name="barNumber">
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Address</label>
+                <input type="text" class="form-control" name="address">
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Phone Number</label>
+                <input type="text" class="form-control" name="phoneNumber">
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Fax Number</label>
+                <input type="text" class="form-control" name="faxNumber">
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Email Address</label>
+                <input type="text" class="form-control" name="emailAddress">
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">INCLUDE ALL NAMES BY WHICH THE DECEASED WAS KNOWN</label>
+                <input type="text" class="form-control" name="heading1">
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">DECEASED</label>
+                <input type="text" class="form-control" name="heading2">
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Name</label>
+                <input type="text" class="form-control" name="name2" data-bs-toggle="tooltip" data-bs-placement="right"
+                    data-bs-custom-class="custom-tooltip" data-bs-title="Where there are variations to the applicant's name, either in spelling or the way it appears on documents e.g. Jane
+Smith is applying but Janet Smith appears on the marriage certificate, an affidavit of alias by an independent
+person (who is either older than or close in age to the applicant) is to be filed." data-trigger="focus">
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Occupation</label>
+                <input type="text" class="form-control" name="occupation" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip"
+                    data-bs-title="This is required for male applicants only." data-trigger="focus">
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Status</label>
+                <input type="text" class="form-control" name="status" data-bs-toggle="tooltip" data-bs-placement="right"
+                    data-bs-custom-class="custom-tooltip" data-bs-title="This is required for female applicants only."
+                    data-trigger="focus">
+            </div>
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">address of residuary
+                    beneficiary</label>
+                <input type="text" class="form-control" name="address2">
+            </div>
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Name of deceased and
+                    all other names by which the deceased was known</label>
+                <textarea class="form-control" id="" rows="3" name="descr1" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title="Where there are typographical errors (e.g. Basdaye/Basdai/Basday/Basdaie) in the deceased's name appearing on
+documents or otherwise, all typographical errors must be stated (and searched) and each must be properly explained
+by the applicant i.e. an explanation is required to account for the differences.
+Where there are different names for the deceased and no nexus between the names (e.g. Basdeo Persad also called
+Andre Jones) an affidavit of alias by an independent person (who is either older than or close in age to the deceased)
+is to be filed." data-trigger="focus"></textarea>
+
+
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Place of death as appears on the death certificate</label>
+                <textarea class="form-control" id="" rows="3" name="descr2" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger="focus"></textarea>
+            </div>
+
+
+
+
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Date of death as appears on the death certificate domicile of
+                    deceased</label>
+                <textarea class="form-control" id="" rows="3" name="descr3" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip"
+                    data-bs-title="If the deceased was not domiciled in Trinidad and Tobago, an affidavit of law is required to be filed. The words "
+                    domicile" and 'fixed place of abode' are synonymous, therefore a person cannot be domiciled in
+                    Trinidad and Tobago with a fixed place of abode in another country. "
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Name of deceased as appears on the death certificate</label>
+                <textarea class="form-control" id="" rows="3" name="descr4" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Initials of sibling of deceased 1</label>
+                <textarea class="form-control" id="" rows="3" name="descr5" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Occupation of the deceased</label>
+                <textarea class="form-control" id="" rows="3" name="descr6" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip"
+                    data-bs-title="This is required if the deceased was male." data-trigger=" focus"></textarea>
+            </div>
+
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">brother/sister</label>
+                <textarea class="form-control" id="" rows="3" name="descr7" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip"
+                    data-bs-title="Brothers and sisters of the whole blood have preference over brothers and sisters of the half blood"
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Bachelor/Spinster</label>
+                <textarea class="form-control" id="" rows="3" name="descr8" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip"
+                    data-bs-title="Please choose one marital status and delete all others."
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Initials of sibling of deceased 2</label>
+                <textarea class="form-control" id="" rows="3" name="descr9" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">State name of spouse</label>
+                <textarea class="form-control" id="" rows="3" name="descr10" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Date of marriage</label>
+                <textarea class="form-control" id="" rows="3" name="descr11" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Place of marriage</label>
+                <textarea class="form-control" id="" rows="3" name="descr12" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Name of deceased as on marriage certificate</label>
+                <textarea class="form-control" id="" rows="3" name="descr13" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">name of spouse as on marriage certificate</label>
+                <textarea class="form-control" id="" rows="3" name="descr14" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">initials of sibling of deceased 2</label>
+                <textarea class="form-control" id="" rows="3" name="descr15" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">give particulars of death stating date and place</label>
+                <textarea class="form-control" id="" rows="3" name="descr16" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">initials of sibling of deceased 3</label>
+                <textarea class="form-control" id="" rows="3" name="descr17" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">state name of spouse</label>
+                <textarea class="form-control" id="" rows="3" name="descr18" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">date of marriage</label>
+                <textarea class="form-control" id="" rows="3" name="descr19" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">place of marriage</label>
+                <textarea class="form-control" id="" rows="3" name="descr20" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">name of deceased as on marriage certificate</label>
+                <textarea class="form-control" id="" rows="3" name="descr21" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">name of spouse as on marriage certificate</label>
+                <textarea class="form-control" id="" rows="3" name="descr22" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">initials of sibling of deceased 2</label>
+                <textarea class="form-control" id="" rows="3" name="descr23" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">name of spouse</label>
+                <textarea class="form-control" id="" rows="3" name="descr24" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">date of renunciation</label>
+                <textarea class="form-control" id="" rows="3" name="descr25" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">initials of sibling of deceased 3</label>
+                <textarea class="form-control" id="" rows="3" name="descr26" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">date of renunciation</label>
+                <textarea class="form-control" id="" rows="3" name="descr27" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">initials of sibling of deceased 4</label>
+                <textarea class="form-control" id="" rows="3" name="descr28" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">number of children</label>
+                <textarea class="form-control" id="" rows="3" name="descr29" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">give particulars of death stating date and place</label>
+                <textarea class="form-control" id="" rows="3" name="descr30" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">initials of sibling of deceased 4</label>
+                <textarea class="form-control" id="" rows="3" name="descr31" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">state names of parents as it is on the birth certificate</label>
+                <textarea class="form-control" id="" rows="3" name="descr32" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">state date of birth</label>
+                <textarea class="form-control" id="" rows="3" name="descr33" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">state place of birth</label>
+                <textarea class="form-control" id="" rows="3" name="descr34" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">state only the names of the deceased that is on the birth
+                    certificate</label>
+                <textarea class="form-control" id="" rows="3" name="descr35" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">initials of sibling of deceased 5</label>
+                <textarea class="form-control" id="" rows="3" name="descr36" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">office copy </label>
+                <textarea class="form-control" id="" rows="3" name="descr37" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">state names of parents as it is on the birth certificate </label>
+                <textarea class="form-control" id="" rows="3" name="descr38" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">state date of birth</label>
+                <textarea class="form-control" id="" rows="3" name="descr39" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">state place of birth</label>
+                <textarea class="form-control" id="" rows="3" name="descr40" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">state only the names of the applicant that is on the birth
+                    certificate</label>
+                <textarea class="form-control" id="" rows="3" name="descr41" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">sinitials of sibling of deceased 6</label>
+                <textarea class="form-control" id="" rows="3" name="descr42" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">date of marriage</label>
+                <textarea class="form-control" id="" rows="3" name="descr43" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">place of marriage</label>
+                <textarea class="form-control" id="" rows="3" name="descr44" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">names of parents as is on the marriage certificate</label>
+                <textarea class="form-control" id="" rows="3" name="descr45" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">initials of sibling of deceased 7</label>
+                <textarea class="form-control" id="" rows="3" name="descr46" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">if applicable. Certificate of no record required only where marriage
+                    certificate is
+                    not produced and marriage is alleged.</label>
+                <textarea class="form-control" id="" rows="3" name="descr47" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">name of parent</label>
+                <textarea class="form-control" id="" rows="3" name="descr48" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">date of renunciation</label>
+                <textarea class="form-control" id="" rows="3" name="descr49" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">initials of sibling of deceased 8</label>
+                <textarea class="form-control" id="" rows="3" name="descr50" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">give particulars of death stating date and place</label>
+                <textarea class="form-control" id="" rows="3" name="descr51" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">initials of sibling of deceased 8</label>
+                <textarea class="form-control" id="" rows="3" name="descr52" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">number of siblings</label>
+                <textarea class="form-control" id="" rows="3" name="descr53" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">state names</label>
+                <textarea class="form-control" id="" rows="3" name="descr54" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">give particulars of death stating date and place</label>
+                <textarea class="form-control" id="" rows="3" name="descr55" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">initials of sibling of deceased 9</label>
+                <textarea class="form-control" id="" rows="3" name="descr56" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">application</label>
+                <textarea class="form-control" id="" rows="3" name="descr57" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip"
+                    data-bs-title="If the applicant is unable to obtain the consent of the other siblings living in Trinidad and Tobago, proof of notification is to be filed i.e. a copy of the letter and consent sent, along with the original registered mail receipt from the post office."
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">initials of sibling of deceased 9</label>
+                <textarea class="form-control" id="" rows="3" name="descr58" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">address of siblings to be provided where known</label>
+                <textarea class="form-control" id="" rows="3" name="descr59" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">If a previous application was made before details of previous
+                    application and
+                    information as to withdrawal/revocation to be state</label>
+                <textarea class="form-control" id="" rows="3" name="descr60" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">this is only to be done if 3 years has elapsed since the death of the
+                    deceased.</label>
+                <textarea class="form-control" id="" rows="3" name="descr61" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">initials of sibling of deceased 9</label>
+                <textarea class="form-control" id="" rows="3" name="descr62" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">same value as on the inventory</label>
+                <textarea class="form-control" id="" rows="3" name="descr63" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip"
+                    data-bs-title="same value as on the inventory" data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">state names of deceased</label>
+                <textarea class="form-control" id="" rows="3" name="descr64" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip"
+                    data-bs-title="Only state the names in which you would like the grant to be issued, this may or may not include all the names in which the search was done."
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">state names of the applicant</label>
+                <textarea class="form-control" id="" rows="3" name="descr65" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip" data-bs-title=""
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+            <div class="mb-3 col-10">
+                <label for="" class="form-label">Commissioner of Affidavits</label>
+                <textarea class="form-control" id="" rows="3" name="descr66" data-bs-toggle="tooltip"
+                    data-bs-placement="right" data-bs-custom-class="custom-tooltip"
+                    data-bs-title="
+        Please note the Commissioner of Affidavit is to sign, date and stamp all exhibits according to the exhibit numbers as set out in the affidavit. The Commissioner of Affidavits is also to initial all insertions and corrections made to every document filed"
+                    data-trigger=" focus"></textarea>
+            </div>
+
+
+
+
+            <button class="btn btn-primary">Get PDF</button>
+        </form>
+    </div>
+</div>

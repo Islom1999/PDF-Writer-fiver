@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <style>
+        * {
+            font-family: 'PT Serif', serif;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        .bold {
+            font-weight: 600;
+            font-style: italic;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container" id="docs">
+        <h2>THIS FORM IS A GUIDE. IT DOES NOT REPLACE THE FORMS IN THE WILLS AND PROBATE ACT</h2>
+        <p class="mt-3"
+            style="font-weight: 600; font-size: 23px; font-style: italic;"><span class="me-5">Form 13</span>       Attesting Witness Affidavit</p>
+
+        <div class="text-end" style="font-style: italic; font-weight: 540; font-size: 18px;">
+            <p>{{data.name}}</p>
+            <p>{{data.barNumber}}</p>
+            <p>{{data.address}}</p>
+            <p>{{data.phoneNumber}}</p>
+            <p>{{data.faxNumber}}</p>
+            <p>{{data.emailAddress}}</p>
+        </div>
+
+        <h2 class="mb-5">REPUBLIC OF TRINIDAD AND TOBAGO</h2>
+
+        <h2 class="text-center" style="font-weight: 600;">IN THE ESTATE OF <br>
+            NAME OF DECEASED<br>
+            {{data.heading1}} <br> {{data.heading2}}</h2>
+            <p class="text-center" style="font-size: 25px;">late of</p>
+            <h3 class="text-center" style="font-weight: 600;">{{data.address}}</h3>
+            <h3 class="text-center">Deceased</h3>
+            <h3 class="text-center">*************</h3>
+
+            <p>I <span class="bold">{{data.name2}}, {{data.occupation}} {{data.status}}</span> of <span class="bold">{{data.address2}}</span> in the Island of Trinidad,
+                make oath and say as follows:</p>
+
+            <p>
+                1. I was personally present on the <span class="bold">{{data.descr1}}</span>  together with <span class="bold">{{data.descr2}}</span>, both of us being persons over fifteen years of age, at the <span class="bold">{{data.descr3}}</span> and did then and
+                there see and hear the said <span class="bold">{{data.descr4}}</span> sign and publish his Will which said Will is
+                hereto annexed and marked “A”. 3
+                Or
+                I was personally present on the <span class="bold">{{data.descr5}}</span> together with <span class="bold">{{data.descr6}}</span>, both of us being persons over fifteen years of age, at the <span class="bold">{{data.descr7}}</span> and did then and
+                there see and hear the said <span class="bold">{{data.descr8}}</span> affix his <span class="bold">{{data.descr9}}</span> to his Will which said Will is hereto annexed and marked “A”.
+            </p>
+
+            <h2>THIS FORM IS A GUIDE. IT DOES NOT REPLACE THE FORMS IN THE WILLS AND
+                PROBATE ACT</h2>
+
+            <p>2. I and the said <span class="bold">{{data.descr10}}</span> then and there together signed and attested
+the said Will as witnesses to the signing and publishing thereof by the said <span class="bold">{{data.descr11}}</span> in his presence and in the presence of each other.</p>
+
+            <p>3.
+                The signature 5 <span class="bold">{{data.descr12}}</span>  at the foot of the said Will at page … is of the
+                true handwriting of the said <span class="bold">{{data.descr13}}</span> deceased.
+                Or
+                The <span class="bold">{{data.descr14}}</span> at the foot of the said Will at Page … is the true
+                <span class="bold">{{data.descr15}}</span> of the said <span class="bold">{{data.descr16}}</span>.
+            </p>
+            
+            <p>4.The said deceased was at the time of his death of the age of <span class="bold">{{data.descr17}}</span> or thereabouts.</p>
+
+            <p>5. The signatures <span class="bold">{{data.descr18}}</span> to
+                the said Will subscribed as those of the witnesses attesting the signing and publishing
+                thereof by the said <span class="bold">{{data.descr19}}</span> are of the true handwriting of me this deponent and
+                the said <span class="bold">{{data.descr20}}</span> respectively.</p>
+
+            <p>6.
+                The signature of the testator to the said Will was then and there written by the hand of
+                <span class="bold">{{data.descr21}}</span> in our presence by the direction of the
+                testator, and was acknowledged by the said testator in the presence of me this deponent and
+                of other attesting witness the testator being unable to write his own name owing to <span class="bold">{{data.descr22}}</span> and previously thereto the Will was read over to
+                the testator in my presence and the testator understood the same and approved it.</p>
+
+            <h2>THIS FORM IS A GUIDE. IT DOES NOT REPLACE THE FORMS IN THE WILLS AND
+                PROBATE ACT</h2>
+
+            <p>7.
+                Prior to the execution of the said will by the said testator, the same was read over to him
+                by me <span class="bold">{{data.descr23}}</span> and at such time he seemed thoroughly to understand the same and
+                approved it.</p>
+
+            
+                    
+
+            <pre>
+        SWORN to at <span class="bold">{{data.descr24}}</span>        )
+                                            ) Executor's signature
+                                            )
+        This day of _____________20___.     )
+                                            </pre>
+
+            <p class="text-center">Before me,</p>
+
+            <p class="text-center bold">{{data.descr25}}</p>
+    </div>
+
+
+    
+
+  
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
