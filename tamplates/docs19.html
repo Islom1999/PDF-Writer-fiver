@@ -24,7 +24,7 @@
             font-size: 20px;
         }
 
-        .bold {
+        .color {
             font-weight: 600;
             font-style: italic;
         }
@@ -35,10 +35,10 @@
 <body>
 
     <div class="container" id="docs">
-        <h2>THIS FORM IS A GUIDE. IT DOES NOT REPLACE THE FORMS IN THE WILLS AND PROBATE ACT</h2>
-        <p class="mt-3"
-            style="font-weight: 600; font-size: 23px; font-style: italic;"><span class="me-5">Form 3</span>       Guide Affidavit of residuary beneficiary - Letters of Administration with Will
-            Annexed</p>
+        <h2>THIS FORM IS A GUIDE. IT DOES NOT REPLACE THE FORMS IN THE WILLS AND
+            PROBATE ACT</h2>
+
+        <h2 class="bold">Guide Administration Bond – Deceased died testate</h2>
 
         <div class="text-end" style="font-style: italic; font-weight: 540; font-size: 18px;">
             <p>{{data.name}}</p>
@@ -51,85 +51,83 @@
 
         <h2 class="mb-5">REPUBLIC OF TRINIDAD AND TOBAGO</h2>
 
-        <h2 class="text-center" style="font-weight: 600;">IN THE ESTATE OF <br>
-            NAME OF DECEASED<br>
-            {{data.heading1}} <br> {{data.heading2}}</h2>
-            <p class="text-center" style="font-size: 25px;">late of</p>
-            <h3 class="text-center" style="font-weight: 600;">{{data.address}}</h3>
-            <h3 class="text-center">Deceased</h3>
-            <h3 class="text-center">*************</h3>
+        <h2 class="text-center bold" >IN THE HIGH COURT OF JUSTICE</h3>
 
-            <p>I <span class="bold">{{data.name2}}, {{data.occupation}} and marital {{data.status}} of </span> of <span class="bold">{{data.address2}}</span> in the Island of Trinidad, make oath and say as follows:</p>
+        <p class="my-5"><span class="bold">L</span>     &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;      of 20</p>
 
-            <p>
-                1. That I desire to obtain Letters of Administration in the estate of <span class="bold">{{data.descr1}}</span> (hereinafter called "the Deceased"),
-                who died at <span class="bold">{{data.descr2}}</span> on the <span class="bold">{{data.descr3}}</span> <span class="bold">{{data.descr4}}</span> having a fixed place of abode at
-                <span class="bold">{{dat    a.descr5}}</span>. The Deceased is the same person as <span class="bold">{{data.descr6}}</span> named in the Death Certificate hereto annexed and
-                marked "<span class="bold">{{data.descr7}}</span>". I am over the age of 18 years.
-            </p>
-            <p>2. I am applying in my capacity as the lawfully appointed attorney of the spouse of the
-                deceased.</p>
-            <p>3.
-                By virtue of a Power of Attorney dated <span class="bold">{{data.descr8}}</span> registered as
-                <span class="bold">{{data.descr9}}</span> the spouse of the deceased <span class="bold">{{data.descr10}}</span>
-                appointed me her lawful attorney to apply for letters of administration of the estate of the
-                deceased. A certified copy of the Power of Attorney is hereto annexed and marked
-                "<span class="bold">{{data.descr11}}</span>".
-            </p>    
+        <h2 class="text-end mb-5">This Bond was prepared by me <br>
+            ATTORNEY NAME <br>
+            ATTORNEY AT LAW</h2>
+        <h2 class="text-end my-4">
+            This Bond was prepared by me <br>
+            /sgd/ <br>
+            Attorney’s name <br>
+            Attorney at law</h2>
 
-            <p>4.
-                The deceased at the time of his death was <span class="bold">{{data.descr12}}</span>.
+        <h2 class="text-end mb-5">Approved by me</h2>
+        <h2 class="text-end mb-5">REGISTRAR</h2>
 
-            <p>5. The deceased and <span class="bold">{{data.descr13}}</span> were married on the <span class="bold">{{data.descr14}}</span> at <span class="bold">{{data.descr15}}</span> and they are the same persons referred to as <span class="bold">{{data.descr16}}</span> and <span class="bold">{{data.descr17}}</span>. The marriage
-                certificate is hereto annexed and marked "<span class="bold">{{data.descr18}}</span>".</p>
+        <h2 class="text-center mb-5">In the Estate of <br>
+            {{data.text1}}, late of <br>
+            {{data.text2}} who died <br>
+            on {{data.text3}} . <br>
+            at {{data.text4}} </h2>
 
-            <p>6. Shortly after the death of the deceased I made (or caused to be made) diligent search
-                among the papers and effects of the deceased and also in the depository for Wills of living
-                persons in the Registry of the Supreme Court for a Will or other document of a
-                testamentary character of the deceased and found none and verily believe that the
-                deceased died intestate.</p>
 
-            <p>7. From searches made in the said Registry it appears that no application for probate or
-                administration has been made previous to this application. <span class="bold">{{data.descr19}}</span>.</p>
+            <p><span class="bold">KNOW ALL MEN BY THESE PRESENTS THAT I (we)</span>, <span class="color">{{data.descr1}}</span> of <span class="color">{{data.descr2}}</span>, 
+                {{#if data.gender}}
+                    <span class="color">insert his occupation</span> 
+                    {{else}}
+                    <span class="color">insert her marital status</span>
+                {{/if}}, am (are jointly and severally)
+                bound unto the Registrar of the Supreme Court of Judicature in the sum of <span class="color">{{data.descr6}}</span> for the payment of which to the said Registrar I
+                (we) bind myself (ourselves), my (our) heirs, executors and administrators firmly by these
+                presents.</p>
 
-            <p>8. The reason for the delay in filing the application is due to <span class="bold">{{data.descr20}}</span></p>
+            <p>Dated &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; thisday of &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 20.</p>
 
-            <p>9. I will duly get in and administer the estate of the said Deceased and pay the Deceased’s
-                just debts and distribute the rest of his estate according to law.</p>
+            <p>The condition of this obligation is such that if the above named  <span class="color">{{data.descr7}}</span>, the <span class="color">{{data.descr8}}</span>. of <span class="color">{{data.descr9}}</span>, deceased, who died on the  <span class="color">{{data.descr10}}</span> and the intended.</p>
 
-            <p>10. I will file in the Registry within 12 calendar months from the date of the grant a
-                statement and account verified by my affidavit of my administration of the estate of the
-                Deceased.</p>
-
-            <p>11. The statements in the application annexed hereto are true to the best of my knowledge,
-                information and belief. </p>
-
-            <p>12. The Inventory hereto annexed and marked <span class="bold">{{data.descr21}}</span> is a true
-                inventory of the particulars of the estate of the Deceased and the value of all the real and
-                personal estate and effects of the Deceased for and in respect of which a grant is required
-                and is exclusive of what the Deceased may have been possessed of and entitled to as trustee
-                for any other person or persons and not beneficially, and is also exclusive of the property
-                in the said inventory specified as being incapable of immediate valuation. The gross
-                value as at the date of death thereof altogether is <span class="bold">{{data.descr22}}</span> as set
-                out in the Inventory to the best of my knowledge, information and belief.</p>
-
-                
             <h2>THIS FORM IS A GUIDE. IT DOES NOT REPLACE THE FORMS IN THE WILLS AND
                 PROBATE ACT</h2>
 
-            <p>13. The letters of administration is required in the names of the deceased as <span class="bold">{{data.descr23}}</span> and in the name of the applicant as <span class="bold">{{data.descr24}}</span>.</p>
-            
+            <p>administrator with will [if applicable- and codicils] annexed of all the estate which by law
+                devolves to and vests in the personal representative of the said deceased, ([if applicable- must
+                state full particulars of any limitation on the estate to be administered3] OR [if applicable-on an
+                application for second or subsequent grant (e.g de bonis non application) - must insert the words
+                “..left unadministered by …..(name of previous grantee)…”]) do, when lawfully called on in that
+                behalf, make or cause to be made a true and perfect inventory of the said estate which has or
+                shall come to the hands, possession or knowledge of the said intended administrator, and do
+                exhibit the said inventory or cause it to be exhibited in the Probate Registry of the Supreme
+                Court of Judicature within twelve calendar months from the date of the grant, verified by his
+                affidavit according law;</p>
 
-            <pre>
-        SWORN to at <span class="bold">{{data.descr25}}</span>        )
-                                            ) Executor's signature
-                                            )
-        This day of _____________20___.     )
-                                            </pre>
+            <p>And do well and truly administer the said estate according to the Wills and Probate Act, Chapter
+                9:03 of the Laws of Trinidad and Tobago and as required by the High Court of Justice or a Judge
+                thereof;</p>
 
-            <p class="text-center">Before me,</p>
+            <p>And further do make or cause to be made a true and just account of the administration of the
+                said estate whenever required by law so to do;</p>
 
-            <p class="text-center bold">{{data.descr26}}</p>
+            <p>And further do, if so required, render and deliver up the Letters of Administration in the High
+                Court of Justice if it shall hereafter appear that any will was made by the said deceased which is
+                exhibited in the said Court with a request that it be allowed and approved accordingly; then this
+                obligation shall be void and of no effect, but shall otherwise remain in full force and effect.</p>
+
+            <p>Signed, sealed and delivered by the } <br>
+            within named <span class="color">{{data.admin}}</span> } <br>
+            in the presence of }</p>
+
+            <p style="font-style: italic;">
+               Witness signature <br>
+                Witness Name in block letters <br>
+                Witness Address <br>
+                Witness Occupation <br>
+            </p>
+
+            <p class="text-center">And by me</p>
+            <p class="text-center">Attorney at Law</p>
+
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"

@@ -24,7 +24,7 @@
             font-size: 20px;
         }
 
-        .bold {
+        .color {
             font-weight: 600;
             font-style: italic;
         }
@@ -62,20 +62,25 @@
         <h2 class="text-end mb-5">REGISTRAR</h2>
 
         <h2 class="text-center mb-5">In the Estate of <br>
-            …………… {{data.text1}}} ………., late of <br>
-            ……… {{data.text2}}} ………… who died <br>
-            on…………….. {{data.text3}}} ………. <br>
-            at ………..… {{data.text4}}} ………</h2>
+            {{data.text1}}, late of <br>
+            {{data.text2}} who died <br>
+            on {{data.text3}} . <br>
+            at {{data.text4}} </h2>
 
 
-            <p><span class="bold">KNOW ALL MEN BY THESE PRESENTS THAT I (we)</span>, ...... <span class="color">{{data.descr1}}</span>….. of …. <span class="color">{{data.descr2}}</span>…., …. <span class="color">{{data.descr3}}</span> <span class="color">{{data.descr4}}</span>…., am <span class="color">{{data.descr5}}</span>
-                bound unto the Registrar of the Supreme Court of Judicature in the sum of … <span class="color">{{data.descr6}}</span> … for the payment of which to the said Registrar I
+            <p><span class="bold">KNOW ALL MEN BY THESE PRESENTS THAT I (we)</span>, <span class="color">{{data.descr1}}</span> of <span class="color">{{data.descr2}}</span>, 
+                {{#if data.gender}}
+                    <span class="color">insert his occupation</span> 
+                    {{else}}
+                    <span class="color">insert her marital status</span>
+                {{/if}}, am (are jointly and severally)
+                bound unto the Registrar of the Supreme Court of Judicature in the sum of <span class="color">{{data.descr6}}</span> for the payment of which to the said Registrar I
                 (we) bind myself (ourselves), my (our) heirs, executors and administrators firmly by these
                 presents.</p>
 
             <p>Dated &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; thisday of &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 20.</p>
 
-            <p>The condition of this obligation is such that if the above named … <span class="color">{{data.descr7}}</span>…, the ……<span class="color">{{data.descr8}}</span>…. of …<span class="color">{{data.descr9}}</span>…, deceased, who died on the … <span class="color">{{data.descr10}}</span>… and the intended
+            <p>The condition of this obligation is such that if the above named  <span class="color">{{data.descr7}}</span>, the <span class="color">{{data.descr8}}</span>. of <span class="color">{{data.descr9}}</span>, deceased, who died on the  <span class="color">{{data.descr10}}</span> and the intended
                 administrator with will [if applicable- and codicils] annexed of all the estate which by law
                 devolves to and vests in the personal representative of the said deceased, ([if applicable- must
                 state full parti ulars of any limitation on the estate to be administered 3] OR [if applicable-on an</p>
@@ -84,12 +89,38 @@
                 PROBATE ACT</h2>
 
             <p>application for second or subsequent grant (e.g de bonis non application) - must insert the words
-                “..left unadministered by …..(name of previous grantee)…”]) do, when lawfully called on in that
+                “left unadministered by (name of previous grantee)”]) do, when lawfully called on in that
                 behalf, make or cause to be made a true and perfect inventory of the said estate which has or
                 shall come to the hands, possession or knowledge of the said intended administrator, and do
                 exhibit the said inventory or cause it to be exhibited in the Probate Registry of the Supreme
                 Court of Judicature within twelve calendar months from the date of the grant, verified by his
                 affidavit according law;</p>
+
+            <p>And do well and truly administer the said estate according to the Wills and Probate Act, Chapter
+                9:03 of the Laws of Trinidad and Tobago and as required by the High Court of Justice or a Judge
+                thereof;</p>
+
+            <p>And further do make or cause to be made a true and just account of the administration of the
+                said estate whenever required by law so to do;</p>
+
+            <p>And further do, if so required, render and deliver up the Letters of Administration in the High
+                Court of Justice if it shall hereafter appear that any will was made by the said deceased which is
+                exhibited in the said Court with a request that it be allowed and approved accordingly; then this
+                obligation shall be void and of no effect, but shall otherwise remain in full force and effect.</p>
+
+            <p>Signed, sealed and delivered }</p>
+            <p>by the within named }</p>
+
+            <p>
+                In the presence of <br>
+                Witness signature <br>
+                Witness Name in block letters <br>
+                Witness Address <br>
+                Witness Occupation <br>
+            </p>
+
+            <p class="text-center">And by me</p>
+            <p class="text-center">Attorney at Law</p>
 
     </div>
 
